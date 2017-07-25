@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>phone</title>
+    <style type="text/css">
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            width:60vmin;
+            height:60vmin;                           /*用VMIN达到自适应*/
+            margin:0 auto;                                  /*大格子居中*/
+        }
+
+        .box {
+            width: 31%;
+            height: 31%;
+            margin: 1% 1%;
+            background-color: darkorange;
+            border-radius: 10px;                       /*圆角*/
+            float: left;
+            cursor:pointer;
+        }
+        .box p{
+            text-align: center;                  /*字体居中*/
+            margin-top: 40%;
+            font-size: 100%;
+        }
+        @media screen and (max-width: 750px) {
+            .box p{
+                margin-top: 8%;    }
+        }
+        .box:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="box"><a href="#"><p>移动端页面</p></a>
+    </div>
+    <div class="box"><a href="task3.html"><p>task3</p></a>
+    </div>
+    <div class="box"><a href="task4.html"><p>task4</p></a>
+    </div>
+    <div class="box"><a href="task5.html"><p>task5</p></a>
+    </div>
+    <div class="box"><a href="task6.html"><p>task6</p></a>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>

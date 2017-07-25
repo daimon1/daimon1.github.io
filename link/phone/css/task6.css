@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+.body{
+    font-size: 62.5%;
+}
+.wrap{
+    width:100vmin;
+    background-color:#29BDE0 ;
+    margin:0 auto;
+}
+.header{
+    width:100%;
+    position: relative;
+}
+.menu{
+    width:5%;
+    position: absolute;
+    top:30%;
+    left:3%;
+    cursor: pointer;
+}
+.menu img{
+    width: 100%;
+    max-width: 50px;
+}
+.header h1{
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+}
+.close{
+    width:5%;
+    position:absolute;
+    top:30%;
+    right:3%;
+    cursor:pointer;
+}
+.close img{
+    width:100%;
+    max-width: 40px;
+}
+.vote{
+    background: #B9E9F5;
+    padding: 4.67% 0;
+    position: relative;
+}
+.vote p{
+    font-size: 2em;
+    padding-left: 8%;
+}
+.player{
+    width:8%;
+    position: absolute;
+    right:3%;
+    top:20%;
+    cursor:pointer;
+}
+.player img{
+    width:100%;
+    max-width:50px;
+}
+.arrow{
+    position: absolute;
+    padding-left:0.5% ;
+}
+
+.prompt{
+    color: #c9eef7;
+    padding-left:8vmin;
+    font-size: 3.5vmin;
+    line-height: 12vmin;
+}
+
+.box{
+    cursor:pointer;
+}
+.box li{
+    list-style-type: none;
+    float:left;
+    width: 20vmin;
+    height: 20vmin;
+    margin:5.5vmin;
+    border: solid white 0.7vmin;
+}
+.box li img{
+    width:5vmin;
+    margin-top: 3vmin;
+}
+
+.box .logo{
+    width:100%;
+    height:12vmin;
+    line-height: 10vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: #565656;
+    background-color: #f5c97b;
+}
+
+.box .no{
+    width: 100%;
+    height: 8vmin;
+    line-height: 4vmin;
+    background-color: #83b09a;
+    text-align: center;
+    color: white;
+    font-size: 2.5vmin;
+    font-weight: 900;
+}
+
+.cleaner{
+    clear: both;
+    width:100%;
+    height:27vmin;                 /*左右两边不允许浮动*/
+}
+
+
+.box span{
+    display: inline-block;
+    width: 0.35vmin;
+    padding: 1.5vmin;
+    margin: 8% 2%;
+    background-image: url("../images/img.png") ;  /*透明度为0*/
+    opacity: 0;
+}
+.logo:hover~span{
+    opacity: 1;                         /*透明度为1*/
+}
+.no:hover~span{
+    opacity:1;
+}
+
+.knife{
+    background-position:  -60px 0;;
+
+}
+.search{
+    background-position: -90px 0; ;
+
+}
+.sniper{
+    background-position: 0 0;
+
+}
+.doctor{
+    background-position: -30px 0;;
+
+}
+
+footer{
+    background-color: #29bde0;
+    position: fixed;
+    bottom: 0;
+    width:100vmin;
+    height:15vmin;
+    border-top: solid white 0.2vmin;
+}
+footer button{
+    display: block;
+    height:10vmin;
+    width:80%;
+    margin: auto;
+    margin-top: 3vmin;
+    border: none;
+    background-color: #fbb435;
+    color: white;
+    font-size: 6vmin;
+}
+
+@media screen and (max-width: 580px) {
+    html {
+        font-size: 80%;  }
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 60%;  }
+}

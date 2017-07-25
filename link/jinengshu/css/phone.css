@@ -1,0 +1,28 @@
+.header_in{
+    width:100%;
+    clear: both;}
+.nav_in,.nav_in ul{
+    width:100%;
+    margin-left:-36px;
+}
+.con2 ul li{
+    width:100%;
+}
+.con2 ul li:nth-of-type(4) p{
+    background: url("../images/icon08.png") no-repeat right center;
+}
+.con2 ul li:nth-of-type(8) p{
+    background: url("../images/icon08.png") no-repeat right center;
+}
+.con3 ul li{
+    width:100%;
+}
+.con4 ul li{
+    width:100%;
+}
+#footer,#footer .top,.top_in{
+    height:auto;
+}
+.top_in .left li,.top_in .qr{
+    float:none;
+}

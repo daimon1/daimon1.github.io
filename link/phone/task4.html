@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>task4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style type="text/css">
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            color:white;
+            text-align: center;
+            padding: 1%;
+            font-size: 6vh;
+        }
+        img{
+            vertical-align: middle;
+        }
+        body{
+            background-color: white;
+            font-size: 2vh;
+        }
+        .top1{
+            width: 100%;
+            height: 10vh;
+            background-color:#29BDE0;
+            border-bottom: 1px solid #59CBE7;
+            position: relative;
+        }
+        .home{
+            width: 8vh;
+            position: absolute;
+            left:1%;
+            top:10%;
+        }
+        .home img{
+            width: 100%;
+            max-width: 70px;
+        }
+        .help{
+            text-align: center;
+            width: 8vh;
+            position: absolute;
+            right:1%;
+            top:10%;
+        }
+        .help img{
+            width: 100%;
+            max-width: 60px;
+        }
+        .top2{
+            width:100%;
+            height: 25vh;
+            background-color: #29BDE0;
+            text-align: center;
+        }
+        .top2 img{
+            width: 100%;
+            max-width: 150px;
+        }
+        .top2 p{
+            width: 75%;
+            margin: 0 auto;
+            font-size: 3vh;
+            color: #FFC865;
+            font-weight:bold;
+        }
+        .a{
+            width: 100%;
+            height:15vh;
+            position: relative;
+            background-color: #29BDE0;
+
+        }
+        .a p{ width: 60%;
+            margin: 0 auto;
+            color: #FFFFFF;
+            font-size: 1.5vh;
+        }
+        .a table {
+            width: 60%;
+            margin: 0 auto;
+            font-size: 1.5vh;
+            color: #FFFFFF;
+
+        }
+        .detail{
+            width: 100%;
+            height: 10vh;
+            border-top: solid 1px #DBDBDB;
+            border-bottom: solid 1px #DBDBDB;
+            background-color: #FFFFFF;
+        }
+        .timeline{
+            width: 60%;
+            margin: 0 auto;
+        }
+        .detail h1{
+            float: left;
+            width:68%;
+            color: #22292C;
+            text-align: left;
+            font-size: 1.3vh;
+        }
+        .detail p{
+            float: left;
+            width:30%;
+            height:6vh;
+            color: #AAAAAA;
+            font-size: 1.3vh;
+            font-weight: lighter;
+        }
+        .detail li{
+            float: left;
+            color: #AAAAAA;
+            display: block;                    /*消除点点*/
+            font-size: 1.3vh;
+        }
+        .footer{
+            position: fixed;                   /*guding*/
+            bottom: 0;
+            width: 100%;
+            height: 10vh;
+            background-color: RGBA(41,190,223,0.4);
+        }
+        .botton{
+            float: left;
+            width:40% ;
+            height: 80%;
+            margin: 10px 5%;
+            display: inline;            /*这句是可以不加的，不过可能会在某些浏览器出现兼容问题，加上好一点*/
+            border-radius: 10px;            /*yuanjiao*/
+        }
+        .botton h1{
+            text-align: center;
+            line-height: 5vh;
+            font-size: 4vh;
+            color: #FFFFFF;
+        }
+
+    </style>
+</head>
+
+
+<body>
+<div class="top1">
+    <div class="home"><a href="task1.html"><img src="images/home.png"/></a>
+    </div>
+    <h1>游戏结果</h1>
+    <div class="help"><img src="images/info.png"/>
+    </div>
+</div>
+
+<div class="top2">
+    <img src="images/win.png"/>
+    <p>太棒了！你知道么？在捉鬼游戏中只有20%的卧底取得游戏最终的胜利哦！</p>
+</div>
+<div class="a">
+    <p>本次游戏共计用时0小时25分</p>
+    <table>
+        <tr>
+            <td>杀&nbsp;手0人</td>
+            <td>警&nbsp;察1人</td>
+            <td>平&nbsp;民6人</td>
+        </tr>
+        <tr>
+            <td>狙击手0人</td>
+            <td>医&nbsp;生1人</td>
+        </tr>
+    </table>
+    <p>卧底词汇：爱新觉罗</p>
+    <p>水民词汇：努尔哈赤</p>
+</div>
+
+
+<div class="detail">
+    <div class="timeline">
+        <h1>第1天</h1>
+        <p>0小时07分</p>
+        <ul>
+            <li>晚上：5号被杀手杀死，5号是水民</li>
+            <li>白天：8号被全民投票投死，8号是杀手</li>
+        </ul>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="detail">
+    <div class="timeline">
+        <h1>第2天</h1>
+        <p>0小时07分</p>
+        <li>晚上：5号被杀手杀死，5号是水民</li>
+        <li>白天：8号被全民投票投死，8号是杀手</li>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="detail">
+    <div class="timeline">
+        <h1>第3天</h1>
+        <p>0小时07分</p>
+        <li>晚上：5号被杀手杀死，5号是水民</li>
+        <li>白天：8号被全民投票投死，8号是杀手</li>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="detail">
+    <div class="timeline">
+        <h1>第4天</h1>
+        <p>0小时07分</p>
+        <li>晚上：5号被杀手杀死，5号是水民</li>
+        <li>白天：8号被全民投票投死，8号是杀手</li>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="detail">
+    <div class="timeline">
+        <h1>第5天</h1>
+        <p>0小时07分</p>
+        <li>晚上：5号被杀手杀死，5号是水民</li>
+        <li>白天：8号被全民投票投死，8号是杀手</li>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="footer">
+    <div class="botton" style="background-color: #F66E6E">
+        <h1>再来一局</h1>
+    </div>
+    <div class="botton" style="background-color: #FBB436">
+        <h1>上传并分享</h1>
+    </div>
+</div>
+</body>
+</html>

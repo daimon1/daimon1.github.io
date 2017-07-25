@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    border:0;
+    margin:0;
+}
+body {
+    font-family: "Hiragino Sans GB W3", sans-serif;
+    font-size: 62.5%;
+}
+.wrap{
+    width:100%;
+    max-width: 640px;
+    margin:0 auto;
+    position: relative;
+}
+
+
+.content{
+    width:70%;
+    position: absolute;
+    left:0;
+    top:0;              /*相对首页的导航菜单绝对定位*/
+}
+.content li{
+    font-size: 3em;
+    color: #69D1E9;
+    padding:5%;
+    border-bottom: 1px solid #C9C9C9;
+}
+ul{
+    list-style: none;                 /*去除列表前面的点点*/
+}
+.icon{
+    float:left;
+    margin-left: 8%;
+}
+.enter{
+    float:right;
+    margin-right: 10%;
+}
+#header {
+    display: none;
+}                                                        /*将id为header的checkbox复选框隐藏*/
+
+#header:checked ~ #main {
+    transform: translateX(70%) translateY(10%);
+    -ms-transform: translateX(70%) translateY(10%);
+    -moz-transform: translateX(70%) translateY(10%);
+    -webkit-transform: translateX(70%) translateY(10%);
+    -o-transform: translateX(70%) translateY(10%);              /*支持各种浏览器*/
+}                                                            /*实现首页的滑动，X，Y为滑动距离*/
+#main{
+    max-width:640px;
+    height:90%;
+    background-color: #F0F0F0;
+    color: #9A9A9A;
+    position:relative;
+    transition: 0.5s ease-in-out;
+}                                                      /*规定以慢速开始和结束的过渡效果*/
+.header{
+    padding:8%;
+    background-color: #29BDE0;
+    position: relative;
+}
+.head img{
+    width:100%;
+    max-width: 18px;
+    position: absolute;
+    top:30%;
+    left:5%;
+}
+.header label {
+    cursor: pointer;                           /*鼠标呈现指针*/
+}
+.record{
+    width:70%;
+    background-color: white;
+    margin:5% auto;
+    padding:7%;
+    position: relative;
+    border: 1px solid #C9C9C9 ;
+}
+.record p{
+    font-size: 4em;
+    text-align: center;
+}
+.record img{
+    float:right;
+    width:100%;
+    max-width: 20px;
+    position: absolute;
+    right:3%;
+    top:33%;
+}
+.choose{
+    width:85%;
+    background-color: white;
+    border:1px solid #c9c9c9;
+    margin:5% auto;
+    position: relative;
+}
+.choose-head{
+    font-size: 4em;
+    text-align: center;
+    padding: 3%;
+    color: #FBB435;
+    border-bottom: #FDD793 solid 1px;
+}
+.choose-content{
+    padding-top:3%;
+    text-align: center;
+}
+.choose div,p{
+    text-align: center;
+}
+.choose-content div{
+    width:70%;
+    padding:7%;
+    color:white;
+    background-color:#69D1E9 ;
+    margin:0 auto;
+    font-size: 4em;
+}
+
+.choose-content p{
+    font-size: 2.5em;
+    color:#9A9A9A;
+    padding: 4.68%;
+}
+.more{
+    width:100%;
+    max-width: 18px;
+    position: absolute;
+    right: 1.4%;
+    top:47%;
+}
+.roll{
+    width:100%;
+    max-width: 80px;
+    position: absolute;
+    left:41.27%;
+    bottom:1%;
+}
+@media screen and (max-width: 540px) {
+    html {font-size: 40%;  }
+}

@@ -1,0 +1,357 @@
+body,p,a,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,input,img,textarea{ padding:0; margin:0; border:0; list-style:none;}
+body{color:#000; font-size:12px; font-family:"微软雅黑";}
+a{color:#096FC7; text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/* header */
+#header{
+    width: 100%;
+    height: 36px;
+    background: #F2F2F2;
+}
+.header_in{
+    width: 1200px;
+    height: 36px;
+    margin:0 auto;
+}
+.header_in ul{
+    width: 438px;
+    height: 36px;
+    float: right;
+    text-align: center;
+    line-height:36px;
+}
+.header_in ul li{
+    width: auto;
+    height: 36px;
+    float: left;
+    margin-left:22px;
+}
+.header_in span{
+    float: left;
+    width: 13px;
+    height: 12px;
+    background: url("../images/more_bg01.jpg");
+    margin:13px 0 0 8px;
+}
+/* nav */
+#nav{
+    width: 100%;
+    height: 48px;
+    background: #1429A0;
+    border-top: 1px solid #1B2B82;
+    border-bottom: 1px solid #1B2B82;
+}
+.nav_in{
+    width:1200px;
+    height: 48px;
+    margin:0 auto;
+}
+.nav_in .logo{
+    float: left;
+    margin:14px 0 0 30px;
+}
+.nav_in .daohang{
+    float: left;
+    text-align: center;
+    line-height:50px;
+    margin-left:15px;
+    font-size:15px;
+}
+.nav_in .daohang li{
+    float: left;
+    margin-left:28px;
+    color: #fff;
+    cursor: pointer;
+}
+.nav_in .daohang span{
+    float: left;
+    width:13px;
+    height:7px;
+    margin:23px 0 0 8px;
+    background: url("../images/arrow01.jpg");
+    cursor: pointer;
+}
+.nav_in .txt{
+    float: left;
+    height:34px;
+    border: 1px solid #1C2A83;
+    margin:6px 0 0 248px;
+    padding-left:12px;
+    font-size:15px;
+}
+.nav_in .sub{
+    float:left;
+    width: 14px;
+    height:14px;
+    margin-top:16px;
+    margin-left:-25px;
+    background: url("../images/search.jpg");
+    cursor: pointer;
+}
+
+/* banner */
+#banner{
+    width: 100%;
+    height: 742px;
+    background:url("../images/banner.jpg") no-repeat;
+    cursor: pointer;
+}
+
+/* phone */
+#phone{
+    width: 100%;
+    height: 700px;
+    background: #E8E8E8;
+}
+.phone_in{
+    width: 1200px;
+    height: 700px;
+    margin:0 auto;
+}
+.phone_in button{
+    height: 36px;
+    padding:0 20px;
+    line-height:36px;
+    border: 1px solid #5F5F5F;
+    margin-top:6px;
+    cursor: pointer;
+    font-size:12px;
+    display: block;
+}
+.phone_in span{
+    width: 1200px;
+    height: 74px;
+    display: block;
+    line-height:110px;
+    font-size:32px;
+}
+.tel_l{
+    width: 573px;
+    height: 590px;
+    float: left;
+    position: relative;
+}
+.l_box{
+    width: 526px;
+    height: 400px;
+    border: 5px solid #43B6F9;
+    padding:30px 38px 0 0;
+    position: absolute;
+    margin-top:35px;
+    z-index: 1;
+}
+.l_box h2{
+    float: right;
+    font-size:35px;
+}
+.l_box .btn1{
+    float: right;
+    clear: both;
+}
+.img_l{
+    position: relative;
+    margin-left:-240px;
+    z-index:2;
+}
+.tel_r{
+    float: right;
+    width: 573px;
+    height: 625px;
+    font-size:14px;
+}
+.tel_r h2{
+    font-weight:normal;
+}
+.tel_r .one{
+    position: relative;
+}
+.liaojie{
+    position: absolute;
+    margin:16px 0 0 20px;
+    z-index:3;
+}
+.tel_r .two{
+    margin-top:25px;
+    float: left;
+}
+.tel_r .three{
+    margin-left:25px;
+}
+/* TV */
+#tv{
+    width: 100%;
+    height: 700px;
+    background: #E8E8E8;
+}
+.tel_r .four h2{
+    background:url("../images/btn-play.png") no-repeat;
+    color: #fff;
+    height:45px;
+    padding-left:56px;
+    line-height:45px;
+}
+/* PROducts */
+#products{
+     width: 100%;
+     height: 700px;
+     background: #EBEBEB;
+
+}
+/* footer1 */
+#footer1{
+    width: 100%;
+    height: 432px;
+    background: #F2F2F2 ;
+}
+.f_in{
+    width: 1200px;
+    height: 328px;
+    margin:0 auto;
+    padding-top:16px;
+}
+.f_l{
+    width: 780px;
+    height: 344px;
+    float: left;
+    border-right: 1px solid #E2E2E2;
+}
+.f_l p{
+    height: 50px;
+}
+.f_l p a{
+    margin-right:28px;
+    font-weight: bold;
+}
+.f_l .all{
+    width: 585px;
+    height:300px;
+}
+.f_l .all .thing{
+    width: 195px;
+    height:300px;
+    float: left;
+}
+.f_l .all .thing dl{
+    margin-bottom:28px;
+}
+.f_in dt{
+    width: 195px;
+    height:30px;
+    line-height:28px;
+}
+.f_in dd{
+    line-height:20px;
+}
+.f_r{
+    width: 390px;
+    height: 400px;
+    float: right;
+
+}
+.f_r .top{
+    text-align: right;
+    display: block;
+    background: url("../images/arrow02.jpg") no-repeat right center;
+    padding-right:18px;
+    cursor: pointer;
+    color: #096FC7;
+}
+.f_r .qita{
+    width: 390px;
+    height: 160px;
+    margin-top:40px;
+}
+.f_r .qita dl{
+    float: left;
+
+}
+.f_r .search{
+    width: 390px;
+    height: 34px;
+    overflow: hidden;
+}
+.f_r .txt{
+    width: 350px;
+    height: 34px;
+    border: 1px solid #DEDEDE;
+    float: left;
+    padding-left:13px;
+}
+.f_r .sub{
+    width: 14px;
+    height: 14px;
+    background: url("../images/search.jpg");
+    float: left;
+    margin-top:12px;
+    margin-left:-25px;
+    cursor: pointer;
+}
+
+.f_r .share{
+    width: 147px;
+    height: 26px;
+    margin-top:20px;
+}
+.f_r .share a{
+    width: 30px;
+    height: 25px;
+    display: inline-block;
+    margin:0 22px 0 12px;
+    background: url("../images/pd_sina_black.png") no-repeat;
+}
+.f_r .share .a02{
+    margin:0;
+    background: url("../images/pd_weixin_black.png") no-repeat;
+}
+.f_r .cert{
+    width: 330px;
+    height: 40px;
+    margin-top:33px;
+}
+.f_r .cert a{
+    float: left;
+}
+.f_r .cert span{
+    width: 158px;
+    height: 40px;
+    margin-left:20px;
+    padding-left:34px;
+    float: left;
+    line-height:18px;
+    background: url("../images/common_cpr_100113.gif") no-repeat;
+}
+#footer2{
+    width: 100%;
+    height: 132px;
+    background: #525252 ;
+}
+.footer_in{
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+    padding-top:32px;
+}
+.footer_in .left{
+    width: 450px;
+    float: left;
+}
+.footer_in .left p{
+    height:50px;
+    line-height:28px;
+}
+.footer_in .left a{
+    float: left;
+    margin-right:20px;
+    color: #fff;
+}
+.footer_in .left span{
+    display: block;
+    margin-top:20px;
+    color: #CEC9C5;
+}
+.footer_in .right{
+    width: 276px;
+    float:right;
+    color: #fff;
+}
